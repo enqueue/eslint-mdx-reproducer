@@ -1,0 +1,14 @@
+{
+  "extends": "plugin:mdx/recommended",
+  "parserOptions": {
+    "babelOptions": {
+      "plugins": ["@babel/plugin-syntax-jsx"]
+    },
+    "extensions": [".mdx", ".js"]
+  },
+  "plugins": ["react"],
+  "settings": {
+    "mdx/code-blocks": false,
+    "mdx/remark": true
+  }
+}
